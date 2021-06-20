@@ -18,7 +18,9 @@ a {
   color: #666666;
 }
 a:hover {
-  color: rgb(0, 153, 255);
+  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h1 {
   text-align: center;
@@ -45,8 +47,8 @@ img {
   align-items: center;
   font-size: 14px;
 }
-.header div h4 {
-  background: -webkit-linear-gradient(45deg, #00509f, #08ceb7 80%);
+.header div h3 {
+  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 8px;
@@ -77,7 +79,7 @@ img {
   align-items: center;
 }
 .presentation div {
-  padding: 20px;
+  padding: 20px 20px 20px 0;
 }
 .presentation div img {
   border: 3px solid rgb(255, 255, 255);
@@ -98,19 +100,38 @@ img {
   flex: 1 1 200px;
   margin: 10px;
 }
-.experiences-title {
+.skills {
   display: flex;
   background-color: #eeeeee;
   align-items: center;
   padding: 15px;
 }
-.experiences-title div {
+.skills div {
   display: flex;
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
   text-align: left;
 }
-.experiences-title div img{
-  height:30px
+.skills div img {
+  height: 30px;
+}
+
+.experiences {
+  padding: 10px;
+}
+
+.experiences div {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experiences div div {
+  margin-top: 15px;
+}
+
+.experiences strong:hover {
+  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
