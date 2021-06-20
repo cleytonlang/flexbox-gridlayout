@@ -57,11 +57,9 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-
 .menu i {
   font-size: 17px;
 }
-
 .menu li {
   margin-left: 10px;
   list-style: none;
@@ -106,27 +104,22 @@ img {
 .skills div img {
   height: 40px;
 }
-
 .experiences {
   padding: 10px;
   margin-bottom: 100px;
 }
-
 .experiences div {
   max-width: 800px;
   margin: 0 auto;
 }
-
 .experiences div div {
   margin-top: 15px;
 }
-
 .experiences strong {
   background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .experiences strong:hover {
   background: -webkit-linear-gradient(45deg, #08ceb7, #06735f 80%);
   -webkit-background-clip: text;
