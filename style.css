@@ -1,11 +1,12 @@
 body {
-  font-size: 12px;
+  font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   padding: 20px;
   margin: 0;
-  padding:0;
+  padding: 0;
   list-style: none;
+  color: #666666;
 }
 .photo {
   width: 90px;
@@ -18,14 +19,54 @@ a {
 a:hover {
   color: rgb(0, 153, 255);
 }
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
 .header {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   font-weight: bold;
+  padding:10px;
 }
-.menu{
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.menu i{
+font-size: 17px;
+}
+
+.menu li {
+  margin-left: 10px;
+  list-style: none;
+}
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:800px;
+    margin: 10px auto;
+    font-weight: normal;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
 }
