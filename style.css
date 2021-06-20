@@ -90,16 +90,6 @@ img {
 .presentation span {
   flex: 1;
 }
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.flex > div {
-  flex: 1 1 200px;
-  margin: 10px;
-}
 .skills {
   display: flex;
   background-color: #eeeeee;
@@ -119,6 +109,7 @@ img {
 
 .experiences {
   padding: 10px;
+  margin-bottom: 100px;
 }
 
 .experiences div {
