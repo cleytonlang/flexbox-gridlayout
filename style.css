@@ -28,21 +28,31 @@ img {
   display: block;
 }
 .header {
-  background-color: #eeeeee;
   display: flex;
+  flex-wrap: wrap;
+  background-color: #eeeeee;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  font-weight: bold;
-  padding:10px;
+  font-weight: normal;
+  padding: 10px;
+}
+.header div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.header div h4 {
+  background: -webkit-linear-gradient(45deg, #00509f, #08ceb7 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu {
   display: flex;
   flex-wrap: wrap;
 }
 
-.menu i{
-font-size: 17px;
+.menu i {
+  font-size: 17px;
 }
 
 .menu li {
@@ -53,12 +63,12 @@ font-size: 17px;
   display: block;
   padding: 10px;
 }
-.presentation{
-    display: flex;
-    flex-wrap: wrap;
-    max-width:800px;
-    margin: 10px auto;
-    font-weight: normal;
+.presentation {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 10px auto;
+  font-weight: normal;
 }
 .flex {
   display: flex;
